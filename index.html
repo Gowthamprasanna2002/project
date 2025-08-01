@@ -32,7 +32,7 @@
   fetch('https://github.com/Gowthamprasanna2002/project/tree/main')
     .then(res => res.json())
     .then(data => {
-      document.getElementById("content").innerText = data.message;
+      document.getElementById("form").innerText = data.message;
     });
 </script>
 
